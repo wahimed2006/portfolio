@@ -179,6 +179,7 @@ export const projects = [
         id: "tower-defense",
         title: "Tower Defense",
         category: "Jeu vidéo / Java",
+        type: "academic",
         period: "2026",
         team: true,
         featured: true,
@@ -233,6 +234,110 @@ export const projects = [
 
         links: {
             github: ""
+        }
+    },
+    {
+        id: "weather-app",
+        title: "Weather App",
+        category: "Développement Web / React",
+        type: "personal",
+        period: "2026",
+        team: false,
+        featured: true,
+
+        shortDescription: "Application météo réactive construite avec React, Webpack et l'API Open-Meteo, offrant des prévisions géolocalisées en temps réel, horaires et sur 7 jours.",
+
+        description: "Conception et développement d'une application météo Web responsive et moderne. Le projet s'appuie sur l'API Open-Meteo pour récupérer la météo actuelle selon la géolocalisation de l'utilisateur, ainsi que les prévisions heure par heure et à 7 jours. L'environnement de build a été configuré de zéro sans conteneurisation préfaite (sans Create React App / Vite), en assemblant et paramétrant sur-mesure Webpack, Babel et l'ensemble des loaders et plugins associés.",
+
+        role: "Développeur Front-End — Configuration & Intégration",
+
+        tasks: [
+            "Mise en place et configuration complète de Webpack, Babel et de leurs plugins (HTML, Favicon, Copy)",
+            "Intégration de l'API Open-Meteo pour la récupération des métriques météo en temps réel et prévisionnelles",
+            "Développement de l'interface utilisateur réactive avec React pour la météo actuelle, horaire et hebdomadaire",
+            "Gestion de la géolocalisation du navigateur pour l'affichage automatique de la météo locale",
+            "Stylisation et optimisation du design pour un rendu responsive multi-supports"
+        ],
+
+        technologies: [
+            "React",
+            "JavaScript (ES6+)",
+            "Webpack",
+            "Babel",
+            "Open-Meteo API",
+            "HTML5",
+            "CSS3"
+        ],
+
+        concepts: [
+            "Développement Front-End",
+            "Consommation d'APIs REST",
+            "Bundling & Tooling JS (Webpack)",
+            "Babel Transpilation",
+            "Géolocalisation Web",
+            "Design Responsive"
+        ],
+
+        highlights: [
+            "Configuration sur-mesure de Webpack et Babel sans boilerplate",
+            "Intégration de l'API Open-Meteo pour la météo en temps réel et prévisions sur 7 jours",
+            "Détection automatique de la position de l'utilisateur via la géolocalisation Web",
+            "Interface fluide et adaptative sur mobile, tablette et desktop"
+        ],
+
+        links: {
+            github: "https://github.com/wahimed2006/weather_app"
+        }
+    },
+    {
+        id: "smart-transit",
+        title: "Smart Transit — Billettique NFC & Cryptographie",
+        category: "Sécurité & Systèmes NFC / Python",
+        type: "personal",
+        period: "2026",
+        team: false,
+        featured: true,
+
+        shortDescription: "Moteur de billettique NFC en Python intégrant la pile logicielle PC/SC (pyscard) et du chiffrement AES, conçu pour cartes à puce et validé par simulation.",
+
+        description: "Conception d'un système de billettique sans contact NFC en Python prêt pour un déploiement sur matériel réel. Le projet intègre la couche de communication PC/SC (pyscard) pour dialoguer avec des cartes à puce ainsi qu'un module de sécurité AES (cryptography.hazmat) pour chiffrer les données sensibles (E-Purse, profils usagers). L'ensemble de la logique métier (tarification dynamique, correspondances, gestion des accès) et de la tolérance aux erreurs matérielles a été validé à travers un environnement de simulation complet.",
+
+        role: "Développeur Python — Architecture & Sécurité NFC",
+
+        tasks: [
+            "Développement de l'interface d'échange APDU / NFC via PyScard (gestion des cartes, timeouts et reconnexions)",
+            "Mise en place de la couche cryptographique AES (cryptography.hazmat) pour le chiffrement des cartes passives",
+            "Création d'un environnement de simulation pour valider les scénarios d'utilisation (valideur, guichet, solde)",
+            "Implémentation de la logique métier : calcul tarifaire dynamique et détection automatique des correspondances",
+            "Développement résilient avec typage statique rigoureux (typing) et gestion des exceptions matérielles"
+        ],
+
+        technologies: [
+            "Python 3",
+            "PyScard (PC/SC / APDU)",
+            "Cryptography (AES)",
+            "NFC / Smart Cards (Protocole)",
+            "Git"
+        ],
+
+        concepts: [
+            "Architecture matérielle-prête (Hardware-Ready)",
+            "Communication carte à puce (PC/SC & APDU)",
+            "Sécurité & Chiffrement symétrique (AES)",
+            "Simulation de systèmes embarqués",
+            "Portefeuille électronique (E-Purse)",
+            "Tolérance aux pannes & Gestion d'exceptions"
+        ],
+
+        highlights: [
+            "Code conçu pour s'interfacer avec de vrais lecteurs PC/SC grâce à l'intégration de PyScard",
+            "Chiffrement AES de bout en bout des données usagers pour prévenir le clonage et la fraude",
+            "Environnement de simulation permettant de valider l'ensemble du cycle de vie des cartes sans matériel physique",
+            "Architecture logicielle propre, entièrement typée et prête pour un bench de tests physiques"
+        ],
+
+        links: {
+            github: "https://github.com/wahimed2006/SOTRACO-Smart-Transit"
         }
     }
 ];
