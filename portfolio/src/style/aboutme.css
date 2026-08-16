@@ -1,0 +1,135 @@
+.about-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-12) var(--space-6);
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: var(--text-strong);
+  margin-bottom: var(--space-8);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: var(--space-10);
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-bio {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+}
+
+.availability-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-5);
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--success);
+  box-shadow: 0 0 8px var(--success);
+}
+
+.status-title {
+  font-weight: 600;
+  color: var(--success);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.status-text {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.status-text strong {
+  color: #e2e8f0;
+}
+
+.about-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.info-block {
+  background-color: var(--bg-elevated);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.block-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.location-text {
+  color: var(--text);
+  font-weight: 500;
+  margin: 0;
+}
+
+.languages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.language-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.lang-name {
+  color: var(--text-strong);
+}
+
+.lang-level {
+  color: #64748b;
+}
+
+.interests-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.interest-tag {
+  background-color: var(--bg-surface);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
