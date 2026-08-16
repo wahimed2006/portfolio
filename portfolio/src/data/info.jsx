@@ -3,7 +3,7 @@ export const personalInfo = {
     title: "Élève Ingénieur en Informatique, Statistique & IA",
     school: "Polytech Lille",
     status: "1re année de cycle ingénieur (IA / Data / Software)",
-    bio: "Élève ingénieur passionné par le développement logiciel, la science des données et l'intelligence artificielle. Je conçois et développe des solutions informatiques performantes, allant des architectures web aux systèmes intelligents.",
+    bio : "Élève ingénieur passionné par l’informatique et les systèmes intelligents, je m’intéresse particulièrement au développement logiciel, à la data et à l’intelligence artificielle. J’aime transformer des idées et des problématiques concrètes en solutions technologiques utiles, robustes et évolutives.",
     email: "wahimed2006@gmail.com",
     location: "Lille, France",
     socials: {

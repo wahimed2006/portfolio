@@ -64,3 +64,86 @@ pre {
 .syntax-string { color: #a5d6ff; }                     /* Chaînes de caractères */
 .syntax-comment { color: #8b949e; font-style: italic; }/* Commentaires */
 .syntax-builtin { color: #79c0ff; }                    /* print */
+
+
+.education-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #f1f5f9;
+}
+
+/* Ligne verticale de la Timeline */
+.timeline {
+  position: relative;
+  border-left: 2px solid #334155;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+/* Point sur la ligne */
+.timeline-marker {
+  position: absolute;
+  top: 4px;
+  left: -1.95rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #38bdf8;
+  border: 2px solid #0f172a;
+}
+
+.timeline-period {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #38bdf8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.timeline-degree {
+  font-size: 1.25rem;
+  color: #f8fafc;
+  margin: 0.25rem 0;
+}
+
+.timeline-institution {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-bottom: 1rem;
+}
+
+/* Tags des thématiques */
+.timeline-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.topic-tag {
+  background-color: #1e293b;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  border: 1px solid #334155;
+}
