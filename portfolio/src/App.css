@@ -1,0 +1,66 @@
+.hero-terminal-section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.code-window {
+  width: 100%;
+  max-width: 800px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  font-family: "Fira Code", "Courier New", Courier, monospace;
+}
+
+.window-header {
+  background-color: #2d2d2d;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.window-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.control {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.control.close { background-color: #ff5f56; }
+.control.minimize { background-color: #ffbd2e; }
+.control.maximize { background-color: #27c93f; }
+
+.window-title {
+  color: #8b949e;
+  font-size: 0.85rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code-content {
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+pre {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Couleurs de coloration syntaxique Python */
+.syntax-keyword { color: #ff7b72; font-weight: bold; } /* def, class, return */
+.syntax-class { color: #ffa657; }                      /* Nom de la classe */
+.syntax-def { color: #d2a8ff; }                        /* __init__, get_bio */
+.syntax-self { color: #79c0ff; font-style: italic; }   /* self */
+.syntax-string { color: #a5d6ff; }                     /* Chaînes de caractères */
+.syntax-comment { color: #8b949e; font-style: italic; }/* Commentaires */
+.syntax-builtin { color: #79c0ff; }                    /* print */
