@@ -4,7 +4,7 @@ export const personalInfo = {
     school: "Polytech Lille",
     status: "1re année de cycle ingénieur (IA / Data / Software)",
     bio: "Élève ingénieur passionné par le développement logiciel, la science des données et l'intelligence artificielle. Je conçois et développe des solutions informatiques performantes, allant des architectures web aux systèmes intelligents.",
-    email: "votre.email@exemple.com",
+    email: "wahimed2006@gmail.com",
     location: "Lille, France",
     socials: {
         github: "https://github.com/wahimed2006",
