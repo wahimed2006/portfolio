@@ -5,6 +5,7 @@ import './style/contact.css';
 import './style/project.css';
 import './style/py.css';
 import './style/skills.css';
+import './index.css'
 
 function App() {
   return (

@@ -5,17 +5,29 @@ import Education from "./education.component";
 import Skills from "./skills.component";
 import Projects from "./projects.component";
 import Contact from "./contact.component";
-
+import RevealOnScroll from "../RevealOnScroll";
 
 const Home = () => {
     return (
         <div>
-            <Profile></Profile>
-            <AboutMe></AboutMe>
-            <Education></Education>
-            <Skills></Skills>
-            <Projects></Projects>
-            <Contact></Contact>
+            <RevealOnScroll>
+                <Profile></Profile>
+            </RevealOnScroll>
+            <RevealOnScroll direction="up">
+                <AboutMe />
+            </RevealOnScroll>
+            <RevealOnScroll>
+                <Education></Education>
+            </RevealOnScroll>
+            <RevealOnScroll>
+                <Skills></Skills>
+            </RevealOnScroll>
+            <RevealOnScroll>
+                <Projects></Projects>
+            </RevealOnScroll>
+            <RevealOnScroll>
+                <Contact></Contact>
+            </RevealOnScroll>
         </div>
     )
 };
