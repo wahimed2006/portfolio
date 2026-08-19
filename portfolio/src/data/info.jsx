@@ -31,8 +31,7 @@ export const skills = [
             "Algorithmique",
             "Structures de données",
             "Programmation orientée objet",
-            "Résolution de problèmes",
-            "Bases des systèmes & réseaux"
+            "Résolution de problèmes"
         ]
     },
     {
@@ -112,8 +111,9 @@ export const education = [
             "Programmation avancée",
             "Bases de données & SQL",
             "Mathématiques pour l’informatique",
-            "Réseaux & systèmes",
+            "Architecture des ordinateurs",
             "Méthodes de résolution de problèmes",
+            "Raisonnement & démonstration",
             "Approche scientifique & recherche"
         ]
     },
@@ -129,7 +129,6 @@ export const education = [
             "Algorithmique",
             "Modélisation",
             "Traitement des données",
-            "Raisonnement & démonstration",
             "Résolution de problèmes",
             "Projet professionnel"
         ]
