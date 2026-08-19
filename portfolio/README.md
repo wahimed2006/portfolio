@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Portfolio — BA Andy Mohamed Wahib
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio personnel et interactif conçu avec **React** et stylisé en **CSS moderne (Dark Mode)**. Il met en valeur mes compétences en ingénierie logicielle, science des données et intelligence artificielle, ainsi que mes projets académiques et personnels.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Fonctionnalités
 
-### `npm start`
+- **Architecture par composants :** Découpage modulaire et réutilisable (Topbar, Hero/IDE Python, About, Education, Skills, Projects, Contact, Footer).
+- **Hero Section interactive :** Présentation sous la forme d'un éditeur de script Python typé.
+- **Filtrage dynamique des projets :** Tri instantané entre projets académiques et projets personnels.
+- **Modale de détails d'architecture :** Visualisation détaillée des tâches, points clés, concepts et technologies pour chaque projet.
+- **Animations au défilement (Scroll Reveal) :** Transitions fluides basées sur l'API native `IntersectionObserver` sans dépendance lourde.
+- **Optimisation SEO & Open Graph :** Métadonnées configurées pour des aperçus riches sur LinkedIn, Discord et X.
+- **Design Responsive :** Adapté pour écrans mobiles, tablettes et ordinateurs de bureau.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Stack Technique
 
-### `npm test`
+- **Frontend :** React, JavaScript (ES6+), HTML5, CSS3
+- **Typographie & Styles :** Thème sombre (Slate / Neon Blue), CSS Grid, Flexbox, Fira Code & Inter
+- **Tooling & Déploiement :** npm, Git, GitHub Pages / Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation et Lancement Local
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Cloner le dépôt :**
+```bash
+git clone [https://github.com/wahimed2006/portfolio.git](https://github.com/wahimed2006/portfolio.git)
+cd portfolio/portfolio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. **Installer les dépendances :**
+```bash
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Lancer le serveur de développement :**
+```bash
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+L'application s'ouvre sur `http://localhost:3000`.
+4. **Générer le build de production :**
+```bash
+npm run build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Auteur
 
-### Analyzing the Bundle Size
+**BA Andy Mohamed Wahib**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* **Formation :** Élève Ingénieur en Informatique, Statistique & IA @ Polytech Lille
+* **GitHub :** [@wahimed2006](https://github.com/wahimed2006)
+* **LinkedIn :** [Andy BA](https://www.linkedin.com/in/andy-ba-4b655039a/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
